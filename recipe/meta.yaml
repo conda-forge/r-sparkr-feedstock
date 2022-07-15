@@ -7,12 +7,12 @@ package:
   version: {{ version }}
 
 source:
-  url: https://dist.apache.org/repos/dist/release/spark/spark-3.0.3/SparkR_3.0.3.tar.gz
+  url: https://dist.apache.org/repos/dist/release/spark/spark-{{ version }}/SparkR_{{ version }}.tar.gz
   sha256: f7dd977e134d8868673cbf753d2ccfbdf74ed1f5a2af06f852f789e72b776c2b
 
 build:
   merge_build_host: True  # [win]
-  number: 0
+  number: 1
   noarch: generic
   rpaths:
     - lib/R/lib/
