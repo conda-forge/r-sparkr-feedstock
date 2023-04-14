@@ -1,11 +1,11 @@
-About r-sparkr
-==============
+About r-sparkr-feedstock
+========================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-sparkr-feedstock/blob/main/LICENSE.txt)
 
 Home: http://spark.apache.org/
 
 Package license: Apache-2.0
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-sparkr-feedstock/blob/main/LICENSE.txt)
 
 Summary: Provides an R Front end for 'Apache Spark' <https://spark.apache.org>.
 
