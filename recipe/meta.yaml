@@ -1,4 +1,4 @@
-{% set version = "3.3.3" %}
+{% set version = "3.3.4" %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://dist.apache.org/repos/dist/release/spark/spark-{{ version }}/SparkR_{{ version }}.tar.gz
-  sha256: 8545321d592c848d11d38a9205c06ee5e3f5cd4e6ac96529f665c10ace9d7ecf
+  sha256: 02dba80e14bbfdcf94bd6f5fa55980903a77dfb3b6348a1b50b8331b0e56f6a2
 
 build:
   merge_build_host: true  # [win]
