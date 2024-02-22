@@ -9,6 +9,8 @@ Package license: Apache-2.0
 
 Summary: Provides an R Front end for 'Apache Spark' <https://spark.apache.org>.
 
+Development: https://github.com/apache/spark
+
 Current build status
 ====================
 
