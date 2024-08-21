@@ -1,4 +1,4 @@
-{% set version = "3.5.1" %}
+{% set version = "3.5.2" %}
 {% set posix = 'm2-' if win else '' %}
 
 package:
@@ -7,10 +7,10 @@ package:
 
 source:
   url: https://dist.apache.org/repos/dist/release/spark/spark-{{ version }}/SparkR_{{ version }}.tar.gz
-  sha256: 6edaaa298be708c7c9bc5a717f2166a2129cf6f265646e4dd3f6388599c088b9
+  sha256: c73868c00b450dcad57c0af18448ae9f5209cdce9afe7d326aa68bedd1ceeb35
 
 build:
-  number: 1
+  number: 0
   noarch: generic
   rpaths:
     - lib/R/lib/
