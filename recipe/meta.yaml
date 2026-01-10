@@ -1,4 +1,4 @@
-{% set version = "4.1.0" %}
+{% set version = "4.1.1" %}
 {% set posix = 'm2-' if win else '' %}
 
 package:
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://dist.apache.org/repos/dist/release/spark/spark-{{ version }}/SparkR_{{ version }}.tar.gz
-  sha256: 432bd7716c6c54870a0afff4e1cea95bcd208ec9e79f43d3f2967f4677a3f8fc
+  sha256: 6918066760d3fce9925ebce1946b02f1cebe911132ab686d2c64087b2c7b9cde
 
 build:
   number: 0
